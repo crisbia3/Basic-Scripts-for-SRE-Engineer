@@ -1,6 +1,6 @@
 import subprocess
 
-hostsfile = open("hostlistping.csv", "r")
+hostsfile = open("hostlistping.csv", "r")   # hostlistping.csv is the csv file in thhis folder with the IP to be pinged
 
 lines = hostsfile.readlines()
 
